@@ -11,13 +11,13 @@ function App() {
         <About />
         <Divider />
         <Projects />
-        <Divider />
+        <Divider pt="3"/>
         <Link href="/" pt="8">
-          <Avatar src="/jcs.png" mx="auto" size="md" />
+          <Avatar src="/alex-holm.png" mx="auto" size="md" />
         </Link>
         <Text>
           This website is{" "}
-          <Link href="https://github.com/jcstein/joshcs-lol" isExternal>
+          <Link href="https://github.com/jcstein/alex-holm" isExternal>
             open-source
           </Link>
         </Text>

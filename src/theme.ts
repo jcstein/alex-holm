@@ -6,7 +6,7 @@ const config: ThemeConfig = {
 };
 
 const fonts = {
-  heading: `"Inter", sans-serif`,
+  heading: `"Georgia", serif`,
   body: `"Inter", sans-serif`,
 };
 
@@ -16,7 +16,7 @@ const theme = extendTheme({
   components: {
     Link: {
       variants: {
-        primary: ({ colorScheme = "purple" }) => ({
+        primary: ({ colorScheme = "orange" }) => ({
           color: `${colorScheme}.600`,
           _hover: {
             color: `${colorScheme}.800`,
