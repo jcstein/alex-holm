@@ -13,7 +13,7 @@ function App() {
         <Projects />
         <Divider pt="3"/>
         <Link href="/" pt="8">
-          <Avatar src="/alex-holm.png" mx="auto" size="md" />
+          <Avatar src="/alex-holm-logo.png" mx="auto" size="md" />
         </Link>
         <Text>
           This website is{" "}
